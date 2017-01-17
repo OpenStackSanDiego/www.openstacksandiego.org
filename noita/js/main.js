@@ -1,10 +1,10 @@
 //Meetup URL getting events 1 month back and 1 month forward
-var meetup_url= "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=sddevops&photo-host=public&time=-2m%2C2m&page=500&fields=&order=time&callback=?&status=upcoming%2Cpast&desc=desc&sig_id=183763164&sig=5dde3b8642c98e610dd6318ce66d55de754bc45b";
+//var meetup_url= "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=sddevops&photo-host=public&time=-2m%2C2m&page=500&fields=&order=time&callback=?&status=upcoming%2Cpast&desc=desc&sig_id=183763164&sig=5dde3b8642c98e610dd6318ce66d55de754bc45b";
 //var meetup_url = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=OpenStack-SD&photo-host=public&time=-2m%2C2m&page=500&fields=&order=time&callback=&status=upcoming%2Cpast&desc=desc&sig_id=5499537&sig=4b364ff3f3b7996bb3162a4dbb23f832990ed476" ;  
 //var meetup_url = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=OpenStack-SD&photo-host=public&page=20&fields=&order=time&desc=false&status=upcoming&sig_id=5499537&sig=9c48e4a4cf4b3efef0e91adfa0b7ce7ab2c36c15"
 //var meetup_url = "https://api.meetup.com/OpenStack-SD/events?photo-host=public&page=20&sig_id=5499537&sig=a586c16e360c779e4475e896c94524fa474fe635"
 //var meetup_url = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=openstacksandiego&page=200&fields=&order=time&desc=false&status=upcoming&sig_id=5499537&sig=fdcc258ae940957959548f1d92372ea885929450"
-
+var meetup_url = "https://api.meetup.com/2/events?offset=0&format=json&limited_events=False&group_urlname=OpenStackSanDiego&photo-host=public&time=-2m%2C2m&page=500&fields=&order=time&callback=?&status=upcoming%2Cpast&desc=desc&sig_id=5499537&sig=21b2e0453755b6ab999310690b1e11c240d13a84";
 
 $.getJSON(meetup_url,
 function (data) {

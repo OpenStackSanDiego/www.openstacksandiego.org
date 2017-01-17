@@ -25,14 +25,14 @@ compress_html:
     envs: [travis]
 # theme
 noita:
-  name: San Diego DevOps
-  description: Devoted to Continuous Development in delivering reliable software
+  name: OpenStack San Diego
+  description: 
   author:
     name: 
-    url: http://www.sddevops.org/
+    url: http://www.OpenStackSanDiego.org/
   lang: en
   favicons:
-    - /assets/2014/04/21/favicon.ico
+    - /assets/favicon.ico
   topbar:
     toggle: Menu
     left:
@@ -40,8 +40,8 @@ noita:
         url: /#about
       - name: Meetings
         url: /#meetings
-      - name: Slides
-        url: https://github.com/sddevops/presentations
+      - name: GitHub
+        url: https://github.com/OpenStackSanDiego/
       - name: Get Involved
         url: /#involved
     class: top-bar-li 
